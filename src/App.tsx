@@ -1,5 +1,11 @@
-export default function App() {
+function App() {
   return (
-    <h1 className="text-4xl font-bold text-center text-blue-600">chao</h1>
-  )
+    <div className="flex items-center justify-center min-h-screen bg-blue-100">
+      <h1 className="text-4xl font-bold text-blue-600">
+        Hola Mundo
+      </h1>
+    </div>
+  );
 }
+
+export default App;
