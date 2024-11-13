@@ -1,9 +1,14 @@
+import { HeaderBasic, HeaderPro } from "./components/header.tsx";
 function App() {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-blue-100">
-      <h1 className="text-4xl font-bold text-blue-600">
-        Hola Mundo
-      </h1>
+
+    <div>
+      <HeaderBasic />
+      <div className="container mx-auto px-4">
+        <div className="flex justify-center items-center h-screen">
+          <h1 className="text-4xl font-bold text-center">Hello, world!</h1>
+        </div>
+      </div>
     </div>
   );
 }
